@@ -182,3 +182,4 @@ except Exception as e:
     lcd_string("Failed",LCD_LINE_2)
     print('Exception message: '.format(e))
     exit(1)
+

@@ -1,6 +1,7 @@
 import gpiod
 import time
 LED_PINs=[25,24,23,22,27,18,17,4,26,16,19,13,12,6,5,7]
+led_pin = []
 chip = gpiod.Chip('/dev/gpiochip4') # select the GPIO chip
 i = 0
 
